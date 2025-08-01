@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const numero = "5521973732903";
+    const numero = "55551151073177";
     const texto = encodeURIComponent(`Olá! Gostaria de receber a 2ª via do boleto para o CPF/CNPJ: ${doc}`);
     const url = `https://wa.me/${numero}?text=${texto}`;
     window.open(url, "_blank");
